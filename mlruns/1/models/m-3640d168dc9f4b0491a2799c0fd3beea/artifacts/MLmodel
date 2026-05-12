@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Users/ABHIYA/causalflow1/mlruns/1/models/m-3640d168dc9f4b0491a2799c0fd3beea/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-3640d168dc9f4b0491a2799c0fd3beea
+model_size_bytes: 348549
+model_uuid: m-3640d168dc9f4b0491a2799c0fd3beea
+prompts: null
+run_id: 63bd85daf2c044c4a9183c6701ad690b
+utc_time_created: '2026-05-12 12:14:28.640513'

@@ -56,6 +56,16 @@ def load_orders():
         if_exists='replace',
         index=False
     )
+    
+
+    order_items.to_sql(
+        'order_items',
+        engine,
+        if_exists='replace',
+        index=False
+    )
+
+    print("Saved order_items to database!")
 
     print("Orders table saved to PostgreSQL!")
 

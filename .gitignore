@@ -1,2 +1,4 @@
 venv/
 _pycache_/
+mlruns/1/models/m-7023f5dee45742c8961b44ed18561785/artifacts/python_env.yaml
+.env

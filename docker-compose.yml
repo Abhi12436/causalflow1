@@ -7,6 +7,8 @@ services:
       POSTGRES_DB: causalflow
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password123
+      PGTZ: Asia/Kolkata
+      TZ: Asia/Kolkata
     ports:
       - "5432:5432"
     volumes:
